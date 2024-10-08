@@ -9,18 +9,17 @@
 <body>
 	<center>
 	<h1>Login Page</h1>
-	<form action="login"  method="post">
 	
+	<form action="login"  method="post">
      <h3>Enter Your Email</h3>
-     <input id="email" type="text" required name="email" onchange="emailcheck()">
-     
-     
+     <input id="email" type="password" required name="email" onchange="emailcheck()">
      <h3>Enter Your Password</h3>
-     <input type="text" required name="password"></br>
-     
+     <input type="password" required name="password"></br>
       <input style="margin-top:20px"  type="submit" value="Login"/>
       </center>
 	</form>
+	
+	
 	<center>
 	<a href="register.jsp"  "><button style="margin-top:20px">Sign Up</button></a>
 	</center>

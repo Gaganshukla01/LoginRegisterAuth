@@ -13,7 +13,6 @@ import com.yash.repo.*;
 public class Register extends HttpServlet {
 	
 	public void service(HttpServletRequest req , HttpServletResponse res) throws IOException {
-		
 		PrintWriter out = res.getWriter();
 		String username=req.getParameter("name");
 		String email=req.getParameter("email");

@@ -12,7 +12,6 @@ public class ImpUserRepo implements InterUserRepo  {
 	public ImpUserRepo() {
 		jdbcUtils=new DBConnection();
 	}
-//	
 
 	@Override
 	public boolean addUser(User user) {
